@@ -1,36 +1,212 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 TasksPro
+Smart Academic Management System
 
-## Getting Started
+TasksPro is a Firebase-powered academic platform that helps students, teachers, and class representatives (CRs) manage assignments, discussions, collaboration, and performance in one place.
 
-First, run the development server:
+It improves productivity, engagement, and academic results through smart tools and real-time features.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔐 Authentication & Roles
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Email/Password & Google Login
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Role-Based Access (Student, Teacher, CR, Admin)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Password Reset
 
-## Learn More
+Secure Sessions
 
-To learn more about Next.js, take a look at the following resources:
+Firestore & Storage Security Rules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📊 Dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Real-time statistics
 
-## Deploy on Vercel
+Upcoming deadlines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Announcements (text + audio)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Attendance overview
+
+Productivity score
+
+Motivational quotes
+
+📝 Assignment Management
+Teachers
+
+Create & manage assignments
+
+Set deadlines
+
+Grade submissions
+
+Provide feedback
+
+Students
+
+Upload submissions (PDF, DOCX, ZIP)
+
+Track status & grades
+
+View feedback
+
+💬 Group Discussion
+
+Subject-based discussion rooms
+
+Doubt-clearing threads
+
+Upvote & accepted answers
+
+File & voice sharing
+
+Teacher moderation
+
+🎨 Live Whiteboard
+
+Real-time collaborative drawing
+
+Text, shapes & math tools
+
+Image upload & annotation
+
+Export as PDF
+
+Teacher control mode
+
+📅 Planner & To-Do
+
+Personal & academic tasks
+
+Priority levels
+
+Drag & drop
+
+Recurring tasks
+
+Study hour logging
+
+Pomodoro timer
+
+📈 Attendance & Analytics
+
+Subject-wise tracking
+
+Percentage calculation
+
+Low attendance alerts
+
+Visual charts (Chart.js)
+
+Export reports
+
+📚 Study Materials
+
+Upload & categorize files
+
+Version control
+
+Download tracking
+
+Search & filter
+
+👥 Group Projects
+
+Project workspace
+
+Role assignment
+
+Task board
+
+Peer review
+
+🎮 Gamification
+
+XP system
+
+Study streaks
+
+Achievement badges
+
+Leaderboard
+
+🔔 Notifications
+
+Push notifications (FCM)
+
+Real-time updates
+
+In-app messaging
+
+Smart reminders
+
+🏛 Library & Issue Reporting
+
+Book catalog & borrow requests
+
+Due reminders
+
+Student issue submission
+
+Status tracking
+
+⚙ Tech Stack
+
+Frontend
+
+HTML5
+
+TailwindCSS
+
+Bootstrap 5
+
+Vanilla JavaScript
+
+Chart.js
+
+Backend
+
+Firebase Authentication
+
+Cloud Firestore
+
+Firebase Storage
+
+Firebase Cloud Messaging
+
+Firebase Hosting
+
+📂 Project Structure
+taskspro/
+├── index.html
+├── dashboard.html
+├── assignments.html
+├── discussions.html
+├── whiteboard.html
+├── todo.html
+├── js/
+├── css/
+├── firestore.rules
+├── storage.rules
+└── README.md
+🚀 Setup
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+
+Update firebase-config.js with your project credentials before deploying.
+
+🌟 Key Highlights
+
+Real-time collaboration
+
+AI-enhanced learning tools
+
+Gamified engagement
+
+Secure role-based system
+
+Scalable for schools & universities
+
+Built with ❤️ using Firebase and modern web technologies.
